@@ -38,12 +38,12 @@ const Main = () => {
             <div className='flex flex-col items-center md:block'>
               <Image src='/images/icon-budgeting.svg' width={50} height={50} alt='simple budgeting icon' />
               <h3 className='text-primary-blue mt-8'>Simple Budgeting</h3>
-              <p className='text-neutral-grayishBlue mt-4 text-center md:text-left'>See exactly where your money goes each month. Receive notifications when you're close to hitting your limits.</p>
+              <p className='text-neutral-grayishBlue mt-4 text-center md:text-left'>See exactly where your money goes each month. Receive notifications when you&apos;re close to hitting your limits.</p>
             </div>
             <div className='flex flex-col items-center md:block'>
               <Image src='/images/icon-onboarding.svg' width={50} height={50} alt='fast onboarding icon' />
               <h3 className='text-primary-blue mt-8'>Fast Onboarding</h3>
-              <p className='text-neutral-grayishBlue mt-4 text-center md:text-left'>We don't do branches. Open your account in minutes online and start taking control of your finances right away</p>
+              <p className='text-neutral-grayishBlue mt-4 text-center md:text-left'>We don&apos;t do branches. Open your account in minutes online and start taking control of your finances right away</p>
             </div>
             <div className='flex flex-col items-center md:block'>
               <Image src='/images/icon-api.svg' width={50} height={50} alt='open api icon' />
@@ -62,7 +62,7 @@ const Main = () => {
               <div className='p-8 bg-neutral-white'>
                 <p className='text-xs text-neutral-grayishBlue'>By Claire Robinson</p>
                 <h4 className='text-primary-blue mt-2'>Receive money in any currency with no fees</h4>
-                <p className='text-sm text-neutral-grayishBlue mt-2'>The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single....</p>
+                <p className='text-sm text-neutral-grayishBlue mt-2'>The world is getting smaller and we&apos;re becoming more mobile. So why should you be forced to only receive money in a single....</p>
               </div>
             </Link>
             <Link href='/' className='bg-neutral-white h-min duration-300 hover:opacity-80'>
@@ -78,7 +78,7 @@ const Main = () => {
               <div className='p-8 overflow-hidden bg-neutral-white'>
                 <p className='text-xs text-neutral-grayishBlue'>By Wilson Hutton</p>
                 <h4 className='text-primary-blue mt-2'>Take your Easybanking card wherever you go</h4>
-                <p className='text-sm text-neutral-grayishBlue mt-2'>We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you...</p>
+                <p className='text-sm text-neutral-grayishBlue mt-2'>We want you to enjoy your travels. This is why we don&apos;t charge any fees on purchases while you&apos;re abroad. We&apos;ll even show you...</p>
               </div>
             </Link>
             <Link href='/' className='bg-neutral-white h-min duration-300 hover:opacity-80'>
@@ -86,7 +86,7 @@ const Main = () => {
               <div className='p-8 overflow-hidden bg-neutral-white'>
                 <p className='text-xs text-neutral-grayishBlue'>By Claire Robinson</p>
                 <h4 className='text-primary-blue mt-2'>Our invite-only Beta accounts are now live!</h4>
-                <p className='text-sm text-neutral-grayishBlue mt-2 '>After a lot of hard work by the whote team, we're excited to launch our closed beta. It's easy to request an invite through the site...</p>
+                <p className='text-sm text-neutral-grayishBlue mt-2 '>After a lot of hard work by the whote team, we&apos;re excited to launch our closed beta. It&apos;s easy to request an invite through the site...</p>
               </div>
             </Link>
           </div>
