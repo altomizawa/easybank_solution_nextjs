@@ -8,10 +8,22 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'bgDesktop': "url('/images/bg-intro-desktop.svg')",
+        'bgMobile': "url('/images/bg-intro-mobile.svg')",
       },
+      colors: {
+        primary: {
+          blue: "hsl(233, 26%, 24%)",
+          green: "hsl(136, 65%, 51%)",
+          cyan: "hsl(192, 70%, 51%)"
+        },
+        neutral: {
+          grayishBlue: "hsl(233, 8%, 62%)",
+          lightGrayishBlue: "hsl(220, 16%, 96%)",  
+          lightGray: "hsl(0, 0%, 98%)",
+          white: "hsl(0, 0%, 100%)"
+        }
+      }
     },
   },
   plugins: [],

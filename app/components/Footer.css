@@ -1,0 +1,7 @@
+.footer__link{
+  @apply text-sm text-neutral-lightGrayishBlue duration-300 hover:text-neutral-grayishBlue w-max 
+}
+
+.footer__social-media-logos{
+  @apply duration-300 hover:opacity-30 w-5 h-auto
+}
