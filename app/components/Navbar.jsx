@@ -32,11 +32,11 @@ const Navbar = () => {
       </div>
       {isMenuActive && <div className='md:hidden absolute w-screen h-screen bg-[rgba(0,0,0,0.1)]'>
           <nav className='bg-white flex flex-col gap-8 items-center justify-center mt-8 mx-8 py-8 rounded-lg'>
-            <Link className='navbar__link' href='/'>Home</Link>
-            <Link className='navbar__link' href='/'>About</Link>
-            <Link className='navbar__link' href='/'>Contact</Link>
-            <Link className='navbar__link' href='/'>Blog</Link>
-            <Link className='navbar__link' href='/'>Careers</Link>
+            <Link className='navbar__link_mobile' href='/'>Home</Link>
+            <Link className='navbar__link_mobile' href='/'>About</Link>
+            <Link className='navbar__link_mobile' href='/'>Contact</Link>
+            <Link className='navbar__link_mobile' href='/'>Blog</Link>
+            <Link className='navbar__link_mobile' href='/'>Careers</Link>
           </nav>
         </div>}
     </div>

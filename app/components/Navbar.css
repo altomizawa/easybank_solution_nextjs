@@ -16,3 +16,7 @@
 .navbar__link:hover::after{
   height: 0.2rem;
 }
+
+.navbar__link_mobile{
+  @apply md:text-neutral-grayishBlue text-primary-blue relative
+}
