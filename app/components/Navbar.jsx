@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(false)
   return (
     // DESKTOP DESIGN //
-    <div>
+    <div className='z-50'>
       <div className='hidden md:flex justify-around items-center h-20 bg-white'>
         <Image src='/images/logo.svg' width={150} height={150} alt='logo' />
         <nav className='space-x-8'>

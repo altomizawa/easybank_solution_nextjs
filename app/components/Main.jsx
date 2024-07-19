@@ -3,19 +3,21 @@ import ButtonGradient from '../ui/ButtonGradient'
 import Link from 'next/link'
 import Image from 'next/image'
 import './Main.css'
+import Navbar from './Navbar'
 
 const Main = () => {
   return (
     <div>
       {/* DESKTOP DESIGN SECTION 1 */}
-      <section className='hidden md:grid grid-cols-2 relative -z-10 pb-8 bg-neutral-lightGray px-[10%] main min-h-[40vh]'>
+      <section className='hidden md:grid grid-cols-2 relative pb-8 bg-neutral-lightGray -z-10 px-[10%] main min-h-[40vh] -z-10'>
         <div className='w-full mt-12'>
           <h1 className='text-5xl text-primary-blue'>Next Generation <br></br>digital banking</h1>
           <p className='text-neutral-grayishBlue my-8'>Take your financial life online. Your Easybank account will be a one-stop for spending, saving, budgeting, investing, and much more.</p>
           <ButtonGradient name='Request Invite' link='/'/>
         </div>
-        <Image className='w-1/3 min-w-[24rem] max-w-[450px] absolute right-0 top-[-5rem]' src='/images/image-mockups.png' width={800} height={800} alt='images of app in cellphone'/>
+          <Image className='w-1/3 min-w-[24rem] max-w-[450px] absolute right-0 top-[-5rem]' src='/images/image-mockups.png' width={800} height={800} alt='images of app in cellphone'/>
       </section>
+
       {/* MOBILE DESIGN SECTION 1 */}
       <section className='md:hidden relative -z-10 bg-neutral-lightGray px-[10%] main_mobile'>
         <div className='w-full mt-12 flex flex-col items-center translate-y-[-10rem]'>
@@ -25,6 +27,8 @@ const Main = () => {
           <ButtonGradient name='Request Invite' link='/'/>
         </div>
       </section>
+
+      
       <section className='bg-neutral-lightGrayishBlue relative -z-20 px-[10%] py-24'>
         <div>
           <h2 className='text-center md:text-left text-3xl'>Why choose Easybank?</h2>
